@@ -74,9 +74,9 @@ width: 200px;
     border: 1px solid white;
     width: 280px;
 }
-#home,#aboutme, #skills, #tes, #education, #workexperience,#projects,#form,#socialmediaaccount,#contactdetails{
+#home,#aboutme,#skills,#tes,#ed,#projects,#work,#contact{
     scroll-behavior: smooth;
-    scroll-margin-block-start: 79px;
+    scroll-margin-block-start: 96px;
  }
 /*Home Section*/
 #home{
@@ -110,6 +110,7 @@ width: 200px;
     margin-top: 20%;
     border: 3px solid black;
     box-shadow: 0 0 10px black;
+    height: 190px;
 }
 .heading{
     font-family: century;
@@ -191,7 +192,7 @@ width: 200px;
     margin: auto;
 
 }
-#re{
+#ed{
     padding: 20px;
     margin-bottom: 50px;
     text-align: left;
@@ -305,6 +306,7 @@ width: 200px;
 #submit:hover{
     background-color: white;
     box-shadow: 10px white;
+    cursor: pointer;
 }
      
 #Copyright{
