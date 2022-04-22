@@ -6,17 +6,13 @@
 }
 /* footer */
 footer{
-    background: url(../images/5b129de44c25ee014c31ad03590458d8..png) no-repeat center center/cover;
     min-width: 100%;
-    box-shadow: 10px 10px 10px rgba(12, 5, 211, 0.548);
-    height: 77px;
-    background-color: rgb(103, 98, 106);
+    height: 100px;
+    background-color: aquamarine;
     display: inline-flex;
-  }
-  footer{
-    color: white;
-    text-shadow: 0 0 10px white;
- }      
+    font-size: larger;
+    color: black;
+}    
 /*Navbar*/
 html{
     scroll-behavior: smooth;
@@ -235,11 +231,12 @@ width: 200px;
     justify-content: center;
     box-sizing: border-box;
     padding: 5px;
-    margin-top: 40px;
+    margin-top: 50px;
     text-align: center;
     border: 2px solid black;
     text-decoration:  1px underline;
     background-color: rgb(21, 230, 230);margin: auto;
+    margin-bottom: -10px;
 }
 #im{
     display: flex;
@@ -266,35 +263,30 @@ width: 200px;
     text-shadow: 2px 2px;
     text-decoration:  1px underline;
 }
-/* Contacts */
-#contact{
-    background: url(../images/5b129de44c25ee014c31ad03590458d8..png) no-repeat center center/cover;
- 
-         }   
- 
- .contact{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            margin-left: 10px;
-            margin-right: 10px;
-            color: white;  
-         }           
- 
+/* Contacts */ 
+#contacts{
+    font-size: 20px;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;  
+}            
  label{
-         width: 175px;
-         display: inline-block;
-         text-align: left;
-         margin-left: auto;
-         margin-right: auto;
+    width: 175px;
+    display: inline-block;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
              
-      }
- 
- 
- .contactbox{
-                border: 6px rgb(175, 0, 0) ridge;
-                padding: 20px;
-            }     
+}
+.contactbox{
+                border: 4px solid black;
+                padding: 50px;
+}     
          
  form{
          text-align: auto;
@@ -310,16 +302,16 @@ width: 200px;
           width: 75px;
           height: 30px;
         }        
- 
- li{
-     margin-left: 20px;  
-   } 
- 
- footer{
-         font-size: larger;
-       }
-      
- #Copyright{
-             margin-left: 1050px;
-             text-align: right; 
-           }   
+#submit:hover{
+    background-color: white;
+    box-shadow: 10px white;
+}
+     
+#Copyright{
+    margin-left: 1050px;
+    t
+    text-align: right; 
+}   
+#cont{
+    background-color: rgb(113, 227, 113);
+}
