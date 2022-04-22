@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+/* footer */
+footer{
+    background: url(../images/5b129de44c25ee014c31ad03590458d8..png) no-repeat center center/cover;
+    min-width: 100%;
+    box-shadow: 10px 10px 10px rgba(12, 5, 211, 0.548);
+    height: 77px;
+    background-color: rgb(103, 98, 106);
+    display: inline-flex;
+  }
+  footer{
+    color: white;
+    text-shadow: 0 0 10px white;
+ }      
+/*Navbar*/
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    height:50px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    box-shadow: 1vw 1vw 4vw whitesmoke;
+    transition: all .5s ease;
+}
+.logo:hover{
+    transform: translate(0px,-10px);
+    transform: scale(2px) perspective(2px);
+    transform: rotate(180deg);
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: aquamarine;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+.navbar ul{
+    list-style: none;
+    padding: 30px;
+}
+.navbar ul li{
+font-family: century;
+font-size:  30px;
+font-weight: bolder;
+position: relative;
+float: left;
+top: 0;
+width: 200px;
+}
+.navbar ul li a{
+   text-decoration: none;
+   color: white;
+   padding: 5px 30px;
+   transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    color: black;
+}
+.sub{
+    display: none;
+    left: 0;
+    position: absolute;
+}
+.navbar ul li:hover .sub{
+    display: grid;
+    padding: 5px;
+}
+.sub{
+    border: 1px solid white;
+    width: 280px;
+}
+#home,#aboutme, #skills, #tes, #education, #workexperience,#projects,#form,#socialmediaaccount,#contactdetails{
+    scroll-behavior: smooth;
+    scroll-margin-block-start: 79px;
+ }
+/*Home Section*/
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 680px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+#home::before{
+   content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: url(./images/NET-ZERO-SPACE-INITIATIVE-1.png)
+    no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid white;*/
+    align-items: center;
+    top: 30%;
+    right: 10%;
+    margin-top: 20%;
+    border: 3px solid black;
+    box-shadow: 0 0 10px black;
+}
+.heading{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 10px 0;
+}
+.headings{
+        font-family: century;
+        font-size: 2rem;
+        text-align: left;
+        margin: 10px 0;
+        text-shadow: 2px 2px;
+        text-decoration:  1px underline;
+}
+.headin{
+    font-family: century;
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px 0;
+    text-shadow: 2px 2px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: .6s ease;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px white;
+    font-weight: bold;
+}
+/*Aboutme Section*/
+#aboutme{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 40px;
+    text-align: center;
+    border: 2px solid black;
+    text-decoration:  1px underline;
+    background-color: rgb(21, 230, 230);margin: auto;
+}
+#pic{
+    display: flex;
+    float: none;
+}
+#pic img{
+    width: 400px;
+    height: 300px;
+    transition: all .5s ease;
+    transform: translate(0,-55px);
+    border: 2px solid green;
+}
+#skills{
+    padding: 20px;
+    margin-bottom: 50px;
+    text-align: left;
+    border: 2px solid black;
+    text-decoration:  1px underline;
+    background-color: aqua;
+    margin: auto;
+
+}
+#tes{
+    padding: 20px;
+    margin-bottom: 50px;
+    text-align: left;
+    border: 2px solid black;
+    text-decoration:  1px underline;
+    background-color: aqua;
+    margin: auto;
+
+}
+#re{
+    padding: 20px;
+    margin-bottom: 50px;
+    text-align: left;
+    border: 2px solid black;
+    text-decoration:  1px underline;
+    background-color: aqua;
+    margin: auto;
+}
+#work{
+    padding: 20px;
+    margin-bottom: 50px;
+    text-align: left;
+    border: 2px solid black;
+    text-decoration:  1px underline;
+    background-color: aqua;
+    margin: auto;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    font-size: large;
+    
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+#skill{
+    font-size: large;
+}
+/* Projects */
+#projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-top: 40px;
+    text-align: center;
+    border: 2px solid black;
+    text-decoration:  1px underline;
+    background-color: rgb(21, 230, 230);margin: auto;
+}
+#im{
+    display: flex;
+    float: none;
+}
+#im img{
+    width: 400px;
+    height: 300px;
+    border: 2px solid green;
+    margin-top: 20px ;
+}
+#intr{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 50px;
+    font-size: large;
+}
+.headingp{
+    font-family: century;
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px 0;
+    text-shadow: 2px 2px;
+    text-decoration:  1px underline;
+}
+/* Contacts */
+#contact{
+    background: url(../images/5b129de44c25ee014c31ad03590458d8..png) no-repeat center center/cover;
+ 
+         }   
+ 
+ .contact{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-left: 10px;
+            margin-right: 10px;
+            color: white;  
+         }           
+ 
+ label{
+         width: 175px;
+         display: inline-block;
+         text-align: left;
+         margin-left: auto;
+         margin-right: auto;
+             
+      }
+ 
+ 
+ .contactbox{
+                border: 6px rgb(175, 0, 0) ridge;
+                padding: 20px;
+            }     
+         
+ form{
+         text-align: auto;
+         display: inline-block;
+     }      
+     
+ textarea{
+             vertical-align: text-top;
+         }
+         
+ #submit{
+          vertical-align: bottom;
+          width: 75px;
+          height: 30px;
+        }        
+ 
+ li{
+     margin-left: 20px;  
+   } 
+ 
+ footer{
+         font-size: larger;
+       }
+      
+ #Copyright{
+             margin-left: 1050px;
+             text-align: right; 
+           }   
