@@ -6,13 +6,14 @@
 }
 /* footer */
 footer{
+    background-color: aquamarine;
+    font-size: large;
+    color: black;
+}
+footer{
     min-width: 100%;
     height: 100px;
-    background-color: aquamarine;
-    display: inline-flex;
-    font-size: larger;
-    color: black;
-}    
+}
 /*Navbar*/
 html{
     scroll-behavior: smooth;
@@ -316,4 +317,14 @@ width: 200px;
 }   
 #cont{
     background-color: rgb(113, 227, 113);
+}
+/* Links */
+.link{
+    text-align: right;
+    align-items: flex-end;
+    padding: 20px;
+}
+.link a:hover{
+    color: white;
+    box-shadow: 1px 1px 4px white;
 }
